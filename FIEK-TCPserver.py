@@ -107,7 +107,7 @@ print("Server started in port:", str(port))
 s.listen(10)
 print("Server ready to accept requests!")
 
-def clinetthread(c,addr):
+def mainF(c,addr):
 
     while 1:
 
@@ -178,7 +178,7 @@ while 1:
     print("Client connected %s with port %s" % addr)
 
     #funksioni nga libraria thread qe mundeson qasjen dhe pranimin e kerkesave nga disa klient njekohesisht
-    start_new_thread(clinetthread, (c, addr))
+    start_new_thread(mainF, (c, addr))
 s.close()
 
 
