@@ -1,1 +1,1 @@
-# Rron_Prokupla_p1
+# Detyra 1 Rrjeta Kompjuterike
